@@ -1,5 +1,8 @@
 import { galleryItems } from './gallery-items.js';
-// Change code below this line
+import SimpleLightbox from "simplelightbox";
+import "simplelightbox/dist/simple-lightbox.min.css";
+import 'lazysizes';
+import 'lazysizes/plugins/parent-fit/ls.parent-fit';
 
 console.log(galleryItems);
 const galleryOfImages = document.querySelector('.gallery');
