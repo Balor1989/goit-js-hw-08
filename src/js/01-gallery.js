@@ -1,6 +1,8 @@
+import '../css/01-gallery.css'
+import '../css/common.css'
+import "simplelightbox/dist/simple-lightbox.min.css";
 import { galleryItems } from './gallery-items.js';
 import SimpleLightbox from "simplelightbox";
-import "simplelightbox/dist/simple-lightbox.min.css";
 import 'lazysizes';
 import 'lazysizes/plugins/parent-fit/ls.parent-fit';
 
